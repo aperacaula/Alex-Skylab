@@ -1,0 +1,88 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #8babe0;
+}
+
+#instrucciones {
+    width: 550px;
+    height: 100px;
+    text-align: justify;
+}
+
+#jugar {
+    font-size: 18px;
+    color: white;
+    background-color: #178dc4;
+    border-color: #71c5ed;
+    border-radius: 10px;
+}
+
+#nombre {
+    font-size: 20px;
+    background-color: #b1abfc;
+}
+
+#check {
+    background-color: #178dc4;
+    border-color: #71c5ed;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.buttons {
+    background-color: #178dc4;
+    border-color: #71c5ed;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#exit {
+    background-color: #9e270f;
+    border-color: red;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.circle span {
+    color: white;
+    text-align: center;
+    background-color: #211993;
+    height: 30px;
+    width: 30px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border-color: #a1a0af;
+    position: absolute;
+    top: 50%; left: 50%;
+}
+
+#A { transform: translate(250px);} 
+#B { transform: rotate(13.85deg) translate(250px) rotate(-13.85deg); }
+#C { transform: rotate(27.7deg) translate(250px) rotate(-27.7deg); }
+#D { transform: rotate(41.55deg) translate(250px) rotate(-41.55Deg); }
+#E { transform: rotate(55.4deg) translate(250px) rotate(-55.4deg); }
+#F { transform: rotate(69.25deg) translate(250px) rotate(-69.25deg); }
+#G { transform: rotate(83.81deg) translate(250px) rotate(-83.81deg); }
+#H { transform: rotate(96.95deg) translate(250px) rotate(-96.95deg); }
+#I { transform: rotate(110.8deg) translate(250px) rotate(-110.8Deg); }
+#J { transform: rotate(124.65deg) translate(250px) rotate(-124.65deg); }
+#K { transform: rotate(138.5deg) translate(250px) rotate(-138.5deg); }
+#L { transform: rotate(152.35deg) translate(250px) rotate(-152.35deg); }
+#M { transform: rotate(166.2deg) translate(250px) rotate(-166.2deg); }
+#N { transform: rotate(180.05deg) translate(250px) rotate(-180.05Deg); }
+#O { transform: rotate(193.9deg) translate(250px) rotate(-193.9deg); }
+#P { transform: rotate(207.75deg) translate(250px) rotate(-207.75deg); }
+#Q { transform: rotate(221.6deg) translate(250px) rotate(-221.6deg); }
+#R { transform: rotate(235.45deg) translate(250px) rotate(-235.45deg); }
+#S { transform: rotate(249.3deg) translate(250px) rotate(-249.3Deg); }
+#T { transform: rotate(263.15deg) translate(250px) rotate(-263.15deg); }
+#U { transform: rotate(277deg) translate(250px) rotate(-277deg); }
+#V { transform: rotate(290.85deg) translate(250px) rotate(-290.85deg); }
+#W { transform: rotate(304.7deg) translate(250px) rotate(-304.7deg); }
+#X { transform: rotate(318.55deg) translate(250px) rotate(-318.55Deg); }
+#Y { transform: rotate(332.4deg) translate(250px) rotate(-332.4deg); }
+#Z { transform: rotate(346.25deg) translate(250px) rotate(-346.25deg); }

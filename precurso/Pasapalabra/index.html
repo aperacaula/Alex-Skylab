@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pasapalabra</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<h1>Pasapalabra</h1>
+	<div id="instrucciones">
+	<p> Bienvenidos a Pasapalabra! Responde cada pregunta y gana un punto por respuesta correcta. Si no sabes la respuesta, tómate un tiempo y Pasapalabra para seguir adquiriendo puntos, luego podrás volver a las letras que hayas decidido posponer. Quieres jugar? </p>
+	</div>
+	
+	<button class="buttons" onclick="pasapalabra()" id="jugar">Jugar!</button>
+	<h1 id='aciertos'></h1>
+	<h1 id='fallos'></h1>
+	<div class="circle">
+	    <span id="A">A</span>
+	    <span id="B">B</span>
+	    <span id="C">C</span>
+	    <span id='D'>D</span>
+	    <span id='E'>E</span>
+	    <span id='F'>F</span>
+	    <span id='G'>G</span>
+	    <span id='H'>H</span>
+	    <span id='I'>I</span>
+	    <span id='J'>J</span>
+	    <span id='K'>K</span>
+	    <span id='L'>L</span>
+	    <span id='M'>M</span>
+	    <span id='N'>N</span>
+	    <span id='O'>O</span>
+	    <span id='P'>P</span>
+	    <span id='Q'>Q</span>
+	    <span id='R'>R</span>
+	    <span id='S'>S</span>
+	    <span id='T'>T</span>
+	    <span id='U'>U</span>
+	    <span id='V'>V</span>
+	    <span id='W'>W</span>
+	    <span id='X'>X</span>
+	    <span id='Y'>Y</span>
+	    <span id='Z'>Z</span>
+	</div>
+
+	<div id="panel" style="display: none;">
+		<p id="pregunta"></p>
+		<input id='answer' type="" name="" placeholder="introduce tu respuesta">
+		<button class="buttons" id="check" onclick="checkAnswer()">Check answer</button><br>
+		<button class="buttons" id="exit" onclick="exit()">Exit</button>
+	</div>
+	<p id="gameOver"></p>
+
+
+	<script src="app/app.js"></script>
+</body>
+</html>
